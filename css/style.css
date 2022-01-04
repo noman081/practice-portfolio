@@ -58,6 +58,8 @@ footer p{
     border-left: 10px solid;
     padding: 10px;
     box-shadow: 5px 10px 8px 10px #888888;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
     
 }
 #web-developer{
@@ -66,4 +68,6 @@ footer p{
     border-left: 10px solid;
     padding: 10px;
     box-shadow: 5px 10px 8px 10px #888888;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 }
