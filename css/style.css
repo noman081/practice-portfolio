@@ -1,0 +1,35 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 700;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.oragne-color{
+    color: orange;
+}
+.half-width{
+    width: 50%;
+    padding: 2%
+}
+section{
+    display: flex;
+    margin-bottom: 150px;
+}
+div img{
+    width: 80%;
+}
+.header-section{
+    background-image: url('/image/top-banner.png');
+    background-repeat: no-repeat;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(salmon,orange);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
