@@ -14,16 +14,15 @@ h1{
     width: 50%;
     padding: 2%
 }
-section{
-    display: flex;
-    margin-bottom: 100px;
-}
+
 div img{
     width: 80%;
 }
 .header-section{
     background-image: url('/image/top-banner.png');
     background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 100px;
 }
 .link-button{
     text-decoration: none;
@@ -37,4 +36,34 @@ div img{
     background-image: url('/image/dream-bg.png');
     background-repeat: no-repeat;
     background-position: right;
+    display: flex;
+    margin-bottom: 100px;
+}
+.experience-item{
+    display: flex;
+    
+}
+.experience-section{
+    background-image: url('/image/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px;
+}
+footer p{
+    text-align: center;
+}
+#full-stack{
+    margin: 0 5%;
+    width: 40%;
+    border-left: 10px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    
+}
+#web-developer{
+    margin: 0 5%;
+    width: 40%;
+    border-left: 10px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 10px #888888;
 }
